@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300&display=swap');
+
+
+
+
+body{
+    background-color: rgb(39, 42, 43);
+    color: white;
+    margin: 200px;
+    font-family: 'Jost', sans-serif;;
+}
+
+
+
+
+.conteiner{
+    background-color: rgb(42, 42, 51);
+    max-width: 350px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 19px;
+    
+}
+
+img{
+    background-color: rgb(76, 76, 97);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+
+.buttom{
+    padding: 10px;
+}
+
+button{
+    background-color: orange;
+    width: 330px;
+    border-radius: 17px;
+    border: none;
+    padding: 9px;
+    color: white;
+    transition: 0.5s;
+    margin-top: 13px;
+    
+}
+
+button:hover{
+    background-color: wheat;
+    color: orange;
+    cursor: pointer;
+}
+
+.rate{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rate-item{
+    background-color: rgb(95, 92, 86);
+    border-radius: 50%;
+    padding: 10px 17px;
+    color: rgb(134, 134, 150);
+}
+
+.rate-item:hover{
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
